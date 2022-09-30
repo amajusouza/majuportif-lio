@@ -1,0 +1,203 @@
+body{
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#titulo {
+  padding-top: 50px;
+  font-family: Arial;
+}
+#f1 {
+  text-align: center;
+  margin: 0;
+}
+#f2 {
+  text-align: center;
+  margin: 0;
+}
+#f3{
+  text-align: center;
+  margin: 0;
+}
+.minha-foto {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  transition: all;
+  transition-duration: 3s;
+}
+.minha-foto:hover {
+  height: 480px;
+  width: 480px;
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 400px;
+  border-style: solid;
+}
+#C {
+  text-align: center;
+}
+.quadrados3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+div {
+  width: 500px;
+  height: 370px;
+  display: inline-block;
+}
+#div1 {
+  background-color: magenta;
+  text-align: center;
+}
+#div1:hover #b1 {
+  display: inline;
+}
+#b1 {
+  display: none;
+}
+#b1:hover {
+  display: inline;
+}
+#div2 {
+  background-color: aqua;
+  text-align: center;
+}
+#div2:hover #b2 {
+  display: inline;
+}
+#b2 {
+  display: none;
+}
+#b2:hover {
+  display: inline;
+}
+#div3 {
+  background-color: magenta;
+  text-align: center;
+}
+#div3:hover #b3 {
+  display: inline;
+}
+#b3 {
+  display: none;
+}
+#b3:hover {
+  display: inline;
+}
+#div4 {
+  background-color: aqua;
+  text-align: center;
+}
+#div4:hover #b4 {
+  display: inline;
+}
+#b4 {
+  display: none;
+}
+#b4 :hover {
+  display: inline;
+}
+
+#div5 {
+  background-color: magenta;
+  text-align: center;
+}
+#div5:hover #b5 {
+  display: inline;
+}
+#b5 {
+  display: none;
+}
+#b5:hover {
+  display: inline;
+}
+#div6 {
+  background-color: aqua;
+  text-align: center;
+}
+#div6:hover #b6 {
+  display: inline;
+}
+#b6 {
+  display: none;
+}
+#b6 :hover {
+  display: inline;
+}
+#div7 {
+  background-color: magenta;
+  text-align: center;
+}
+#div7:hover #b7 {
+  display: inline;
+}
+#b7 {
+  display: none;
+}
+#b7:hover {
+  display: inline;
+}
+
+#div-img {
+  background-color: aquamarine;
+  height: 680px;
+  width: 100%;
+}
+#div-habilidades {
+  background-color: blueviolet;
+  width: 100%;
+}
+#sidebar {
+  width: 100%;
+  background-color: white;
+  height: 600px;
+}
+.barra-container {
+  width: 100%;
+  background-color: black;
+  height: 600px;
+  display: flex;
+}
+.barra {
+  height: 900px;
+  background-color: aquamarine;
+  width: 33.5%;
+  margin: 0;
+  display: block;
+}
+.barra-meio {
+  width: 33.4%;
+  height: 900px;
+  background-color: aquamarine;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.barra2 {
+  height: 900px;
+  background-color: aquamarine;
+  margin: 0px;
+  width: 33.12%;
+  display: block;
+}
+.qrcode-div {
+  width: 100%;
+  background-color: white;
+  height: 600px;
+  text-align: center;
+}
+.img-qrcode {
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+}
+
